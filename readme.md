@@ -23,8 +23,8 @@ This project implements a REST API that justifies text to 80 characters per line
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/tictactrip-text-justify.git
-    cd tictactrip-text-justify
+    git clone https://github.com/AhmedFrikhaa/Tictactrip-.git
+    cd tictactrip-
     ```
 
 2. Install dependencies:
