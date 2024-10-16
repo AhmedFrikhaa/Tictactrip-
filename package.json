@@ -4,10 +4,10 @@
   "main": "src/app.ts",
   "type": "module",
   "scripts": {
-    "build": "chmod +x ./node_modules/.bin/ts-node-dev && npm run start",
+    "build": "tsc",
+    "start": "node dist/app.js",
     "test": "jest",
-    "test:coverage": "jest --coverage",
-    "start": "ts-node-dev --respawn --transpile-only --debug src/app.ts"
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
