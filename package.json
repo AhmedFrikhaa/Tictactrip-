@@ -2,6 +2,7 @@
   "name": "tictactrip",
   "version": "1.0.0",
   "main": "src/app.ts",
+  "type": "module",
   "scripts": {
     "build": "chmod +x ./node_modules/.bin/ts-node-dev && npm run start",
     "test": "jest",
